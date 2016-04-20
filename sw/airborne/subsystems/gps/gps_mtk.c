@@ -411,14 +411,6 @@ restart:
 
 
 /*
- * register callbacks & structs
- */
-void gps_mtk_register(void)
-{
-  gps_register_impl(gps_mtk_init, gps_mtk_event, GPS_MTK_ID);
-}
-
-/*
  *
  *
  * GPS dynamic configuration
